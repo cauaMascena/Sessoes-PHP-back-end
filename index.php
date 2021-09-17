@@ -1,3 +1,14 @@
+<?php
+
+require("./funcoes.php");
+
+session_start();
+
+realizarLogin($usuario, $senha, $dados);
+
+?>
+
+
 <!DOCTYPE html>
 
 <html lang="en">
